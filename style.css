@@ -1,0 +1,100 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background: linear-gradient(#979eeb, #97ff97);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#2937d8, #027002);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px black, 0 0 25px #027002, 0 0 5px darkblue;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-style: italic;
+  background: linear-gradient(to right, #2937d8 0%, #027002 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+#image {
+  margin: auto;
+  background-image: url("john-lennon.jpg");
+  width: 800px;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image:hover {
+  background-image: url("https://i.pinimg.com/originals/ed/2a/c4/ed2ac47e5dde5e485b5dd99b3c70daf1.jpg");
+  transition: 0.5s;
+  width: 800px;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+
+.boxed {
+  position: relative;
+  z-index: 1;
+  padding: 25px;
+  margin: 10px 200px 10px 200px;
+}
+
+.bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(http://www.plasticmag.co.uk/wp-content/uploads/2015/06/abbey_road_black_and_white_the_beatles_1024x768_wallpaper_Wallpaper-HD_1920x1440_www.paperhi.com_.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  line-height: 2;
+  font-family: sans-serif;
+  font-style: bolder;
+  font-size: 18px;
+}
+
+#img-caption {
+  font-style: italic;
+  font-size: 18px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+a {
+  text-decoration: underline;
+  color: black;
+  font-style: bold;
+}
+
+a:hover {
+  color: #2937d8;
+  font-style: bolder;
+  font-size: 22px;
+}
