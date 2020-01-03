@@ -23,9 +23,9 @@ h2 {
 }
 
 #image {
+  transition: background-image 500ms ease-in-out;
   margin: auto;
   background-image: url("john-lennon.jpg");
-  transition-duration: 1s;
   width: 800px;
   height: 500px;
   background-size: cover;
@@ -35,7 +35,6 @@ h2 {
 
 #image:hover {
   background-image: url("https://i.pinimg.com/originals/ed/2a/c4/ed2ac47e5dde5e485b5dd99b3c70daf1.jpg");
-  transition-duration: 1s;
   width: 800px;
   height: 500px;
   background-size: cover;
