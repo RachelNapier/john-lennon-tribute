@@ -5,16 +5,18 @@ body {
   background: linear-gradient(#979eeb, #97ff97);
   line-height: 2;
   font-weight: bold;
+  font-size: 18px;
+  text-indent: 0.5in;
 }
 
 h1 {
   text-transform: uppercase;
-  font-size: 72px;
+  font-size: 40px;
   background: -webkit-linear-gradient(#2937d8, #027002);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 1px 1px 2px black, 0 0 25px #027002, 0 0 5px darkblue;
-  margin-bottom: 25px;
+  margin-bottom: -25px;
 }
 
 h2 {
@@ -29,6 +31,7 @@ h2,
 footer {
   text-align: center;
 }
+
 #image {
   transition: background-image 500ms ease-in-out;
   margin: auto;
@@ -47,7 +50,6 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  cursor: pointer;
 }
 
 .boxed {
@@ -73,19 +75,14 @@ footer {
   height: 100%;
 }
 
-p,
-#img-caption {
-  font-size: 18px;
-}
-
 h2,
 #img-caption {
   font-style: italic;
 }
 
 footer {
-  margin-top: 20px;
   font-size: 20px;
+  font-style: normal;
 }
 
 a {
