@@ -9,6 +9,9 @@ body {
   text-indent: 0.5in;
 }
 
+/* =========================== TRIBUTE STYLES ====================================== */
+
+
 h1 {
   text-transform: uppercase;
   font-size: 40px;
@@ -52,6 +55,13 @@ footer {
   background-position: center;
 }
 
+h2,
+#img-caption {
+  font-style: italic;
+}
+
+/* =========================== CONTENT BG IMAGE ====================================== */
+
 .boxed {
   position: relative;
   z-index: 1;
@@ -75,10 +85,7 @@ footer {
   height: 100%;
 }
 
-h2,
-#img-caption {
-  font-style: italic;
-}
+/* =========================== FOOTER STYLES ======================================== */
 
 footer {
   font-size: 20px;
