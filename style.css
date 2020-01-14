@@ -1,6 +1,10 @@
+/* =========================== GLOBAL STYLES ======================================= */
+
 body {
   font-family: "Quicksand", sans-serif;
   background: linear-gradient(#979eeb, #97ff97);
+  line-height: 2;
+  font-weight: bold;
 }
 
 h1 {
@@ -15,13 +19,16 @@ h1 {
 
 h2 {
   font-size: 1.6rem;
-  font-style: italic;
   background: linear-gradient(to right, #2937d8 0%, #027002 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-align: center;
 }
 
+h2,
+.center,
+footer {
+  text-align: center;
+}
 #image {
   transition: background-image 500ms ease-in-out;
   margin: auto;
@@ -41,10 +48,6 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
-}
-
-.center {
-  text-align: center;
 }
 
 .boxed {
@@ -70,31 +73,26 @@ h2 {
   height: 100%;
 }
 
-p {
-  line-height: 2;
-  font-family: sans-serif;
-  font-style: bolder;
+p,
+#img-caption {
   font-size: 18px;
 }
 
+h2,
 #img-caption {
   font-style: italic;
-  font-size: 18px;
 }
 
 footer {
   margin-top: 20px;
-  text-align: center;
   font-size: 20px;
 }
+
 a {
   text-decoration: underline;
   color: black;
-  font-style: bold;
 }
 
 a:hover {
   color: #2937d8;
-  font-style: bolder;
-  font-size: 22px;
 }
