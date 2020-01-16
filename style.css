@@ -6,7 +6,8 @@ body {
   line-height: 2;
   font-weight: bold;
   font-size: 18px;
-  text-indent: 0.5in;
+  text-indent: 0.1in;
+  margin: auto;
 }
 
 /* =========================== TRIBUTE STYLES ====================================== */
@@ -66,7 +67,6 @@ h2,
   position: relative;
   z-index: 1;
   padding: 25px;
-  margin: 10px 200px 10px 200px;
 }
 
 .bg {
