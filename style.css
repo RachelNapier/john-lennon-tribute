@@ -1,4 +1,6 @@
-/* =========================== GLOBAL STYLES ======================================= */
+/* ===========================
+        GLOBAL STYLES 
+   =========================== */
 
 body {
   font-family: "Quicksand", sans-serif;
@@ -10,7 +12,9 @@ body {
   margin: auto;
 }
 
-/* =========================== TRIBUTE STYLES ====================================== */
+/* ===========================
+        TRIBUTE STYLES
+   =========================== */
 
 h1 {
   text-transform: uppercase;
@@ -41,7 +45,7 @@ footer {
 
 #image {
   transition: background-image 500ms ease-in-out;
-  background-image: url("john-lennon.jpg");
+  background-image: url("images/john-lennon.jpg");
   width: auto;
   height: 350px;
   background-size: cover;
@@ -63,7 +67,9 @@ h2,
   font-style: italic;
 }
 
-/* =========================== CONTENT BG IMAGE ====================================== */
+/* ===========================
+        CONTENT BG IMAGE
+   =========================== */
 
 .boxed {
   position: relative;
@@ -87,7 +93,9 @@ h2,
   height: 100%;
 }
 
-/* =========================== FOOTER STYLES ======================================== */
+/* ===========================
+        FOOTER STYLES
+   =========================== */
 
 footer {
   font-style: normal;
@@ -112,15 +120,16 @@ a:hover {
     font-size: 20px;
   }
 
-  p, #img-caption, footer {
+  p,
+  #img-caption,
+  footer {
     font-size: 16px;
   }
 
-  #image, #image:hover {
+  #image,
+  #image:hover {
     max-width: 750px;
     height: 500px;
     margin: auto;
   }
-
-
 }
