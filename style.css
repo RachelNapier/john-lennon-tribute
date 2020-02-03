@@ -1,12 +1,22 @@
 /* ===========================
-        GLOBAL STYLES 
+        GLOBAL STYLES
    =========================== */
 
 body {
   font-family: "Quicksand", sans-serif;
-  background: linear-gradient(#979eeb, #97ff97) fixed;
-  line-height: 1.5;
-  margin: auto;
+  background: linear-gradient(#979eeb, #97ff97); 
+  background-attachment: fixed;
+}
+
+#main,
+#tribute-info,
+.center {
+  margin: 0 auto;
+}
+
+#main,
+#tribute-info {
+  max-width: 1280px;
 }
 
 /* ===========================
@@ -22,7 +32,7 @@ body {
 
 h2.quote {
   font-size: 18px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 h2.quote,
@@ -61,13 +71,14 @@ h2.quote,
 .text_content {
   font-weight: bold;
   text-indent: 0.1in;
+  line-height: 1.5;
 }
 
 /* ===========================
         CONTENT BG IMAGE
    =========================== */
 
-div.boxed {
+#main {
   position: relative;
   padding: 25px;
 }
@@ -108,12 +119,6 @@ div.bg {
 
   h2.quote {
     font-size: 1.5em;
-  }
-
-  .text-content,
-  #img-caption,
-  #tribute-info {
-    font-size: 1em;
   }
 
   #image,
