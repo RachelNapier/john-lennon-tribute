@@ -4,11 +4,8 @@
 
 body {
   font-family: "Quicksand", sans-serif;
-  background: linear-gradient(#979eeb, #97ff97);
+  background: linear-gradient(#979eeb, #97ff97) fixed;
   line-height: 1.5;
-  font-weight: bold;
-  font-size: 14px;
-  text-indent: 0.1in;
   margin: auto;
 }
 
@@ -16,30 +13,29 @@ body {
         TRIBUTE STYLES
    =========================== */
 
-h1 {
+#title {
   text-transform: uppercase;
-  font-size: 24px;
-  background: -webkit-linear-gradient(#2937d8, #027002);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 1.5em;
   text-shadow: 1px 1px 2px black, 0 0 25px #027002, 0 0 5px rgb(36, 36, 49);
   margin-bottom: -25px;
 }
 
-h2 {
+h2.quote {
   font-size: 18px;
+  padding-top: 10px;
+}
+
+h2.quote,
+#title {
   background: linear-gradient(to right, #2937d8 0%, #027002 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: normal;
-  padding-top: 10px;
 }
 
-h2,
+h2.quote,
 .center,
-footer {
+#tribute-info {
   text-align: center;
 }
 
@@ -55,29 +51,28 @@ footer {
 
 #image:hover {
   background-image: url("https://i.pinimg.com/originals/ed/2a/c4/ed2ac47e5dde5e485b5dd99b3c70daf1.jpg");
-  width: auto;
-  height: 350px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-h2,
+h2.quote,
 #img-caption {
   font-style: italic;
+}
+
+.text_content {
+  font-weight: bold;
+  text-indent: 0.1in;
 }
 
 /* ===========================
         CONTENT BG IMAGE
    =========================== */
 
-.boxed {
+div.boxed {
   position: relative;
-  z-index: 1;
   padding: 25px;
 }
 
-.bg {
+div.bg {
   position: absolute;
   z-index: -1;
   top: 0;
@@ -97,39 +92,34 @@ h2,
         FOOTER STYLES
    =========================== */
 
-footer {
-  font-style: normal;
-  padding-top: 10px;
-}
-
-a {
+#tribute-link {
   text-decoration: underline;
   color: black;
 }
 
-a:hover {
+#tribute-link:hover {
   color: #2937d8;
 }
 
-@media (min-width: 700px) {
-  h1 {
-    font-size: 40px;
+@media (min-width: 1281px) {
+  #title {
+    font-size: 3em;
   }
 
-  h2 {
-    font-size: 20px;
+  h2.quote {
+    font-size: 1.5em;
   }
 
-  p,
+  .text-content,
   #img-caption,
-  footer {
-    font-size: 16px;
+  #tribute-info {
+    font-size: 1em;
   }
 
   #image,
   #image:hover {
     max-width: 750px;
     height: 500px;
-    margin: auto;
+    margin: 0 auto;
   }
 }
